@@ -1,0 +1,118 @@
+.ProjectContainer {
+  /* border: 2px solid red; */
+  padding: 0 3rem 0 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  height: 70vh;
+  margin-bottom: 8rem;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+  overflow: auto;
+}
+.head{
+  text-align: center;
+}
+.project {
+  border-radius: 15px;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+  
+  .project:hover {
+    cursor: pointer;
+  }
+  
+  .project img {
+    margin-top: 10px;
+    width: 410px;
+    height: 275px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project:hover img {
+    transform: translateY(-5px);
+  }
+  
+  .project h2 {
+    margin-top: 1rem;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 1rem;
+  }
+ 
+  @media screen and (max-width: 320px){
+    .head h1{
+      font-size: 20px;
+      text-align: center;
+    }
+    .ProjectContainer {
+      height: auto;
+      margin-bottom: 6rem;
+      margin-top: 2rem;
+      padding: 0 1rem;
+    }
+  
+    .project {
+      width: 100%;
+    }
+  
+    .project img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .project p {
+      font-size: 13px;
+    }
+    .project h2{
+      font-size: 14px;
+    }
+    .project a{
+      font-size: 13px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    
+  }
+  @media screen and (max-width:480px){
+    .head h1{
+      font-size: 20px;
+      text-align: center;
+      margin-top: -0rem;
+    }
+    .ProjectContainer {
+      height: auto;
+      margin-bottom: 6rem;
+      margin-top: 2rem;
+      padding: 0 1rem;
+    }
+  
+    .project {
+      width: 100%;
+
+    }
+  
+    .project img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .project p {
+      font-size: 14px;
+    }
+    .project h2{
+      font-size: 16px;
+    }
+    .project a{
+      font-size: 14px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    
+  }

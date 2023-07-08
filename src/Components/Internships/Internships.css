@@ -1,0 +1,106 @@
+.internship{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0 3rem 0 3rem;
+    height: 91vh;
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+.Intern{
+  text-align: center;
+}
+.hi h3{
+    margin-top: 35px;
+    text-decoration: underline;
+}
+.h2{
+    margin-bottom: 2rem;
+}
+.h-internship{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 320px){
+    .Intern{
+        text-align: center;
+        font-size: 10px;
+    }
+    .internship {
+        padding: 0 1rem;
+        height: auto;
+        margin-bottom: -3rem;
+        margin-top: 1rem;
+      }
+    .h-internship h2{
+        font-size: 14px;
+    }
+    .h2 {
+        margin-bottom: 1rem;
+      }
+    .hi h3 {
+        margin-top: 1rem;
+        text-decoration: underline;
+      }
+      .h-internship {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .internship h3 {
+        font-size: 13px;
+      }
+      .hi h3 {
+        margin-top: 1rem;
+        text-decoration: underline;
+      }
+      p{
+        font-size: 13px;
+      }
+
+}
+
+  
+
+@media screen and (max-width: 480px){
+    .Intern{
+        text-align: center;
+        font-size: 10px;
+    }
+    .internship {
+        padding: 0 1rem;
+        height: auto;
+        margin-bottom: -3rem;
+        margin-top: 1rem;
+      }
+    .h-internship h2{
+        font-size: 14px;
+    }
+    .h2 {
+        margin-bottom: 1rem;
+      }
+    .hi h3 {
+        margin-top: 1rem;
+        text-decoration: underline;
+      }
+      .h-internship {
+        margin-top: 18px;
+        margin-bottom: 10px;
+      }
+      .internship h3 {
+        font-size: 14px;
+      }
+      .hi h3 {
+        margin-top: 1rem;
+        text-decoration: underline;
+      }
+      p{
+        font-size: 14px;
+      }
+
+}
+
+  
