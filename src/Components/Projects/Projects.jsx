@@ -1,7 +1,7 @@
 import React ,{ useContext }from 'react'
 import './Projects.css'
 import project1 from '../Assets/project1.jpg'
-import TextUtils from "../Assets/textutils.jpg"
+import project2 from "../Assets/photonew.png"
 import { themeContext } from '../../Context';
 
 
@@ -20,10 +20,10 @@ const Projects = () => {
          <a href="https://quipchat.netlify.app/"> <span style={{ color: darkMode ? "white" : "" }}>Visit</span></a>
         </div>
         <div className="project">
-        <img src={TextUtils} alt="" />
-        <h2>TextUtils</h2>
-        <p> A versatile online tool that effortlessly converts text between lowercase and uppercase. Count the words in your text and estimate the reading time to optimize your communication.</p>
-        <a href="https://anuprocks.github.io/TextUtils/" target='_blank'> <span style={{ color: darkMode ? "white" : "" }}>Visit</span></a>
+        <img src={project2} alt="" />
+        <h2>triSocialApp</h2>
+        <p>Elevate your social media experience. Embrace a fresh digital community on our platform, designed for seamless sharing, vibrant interactions, and enriched connections. Join us in shaping the next era of online socializing.</p>
+        <a href="https://trisocialapp.netlify.app/" target='_blank' rel="noreferrer"> <span style={{ color: darkMode ? "white" : "" }}>Visit</span></a>
         </div>
         
     </div>

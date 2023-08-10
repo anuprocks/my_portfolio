@@ -1,7 +1,7 @@
 import React , { useContext } from 'react'
 import './Services.css'
 import Card from '../Card/Card'
-import Resume from '../Services/Resume.pdf'
+import Resume from '../Services/Anup_Deka_Resume.pdf'
 import photoshop from '../Assets/phot0shop.png'
 import videoeditor from '../Assets/videoeditor.png'
 import webdev from '../Assets/webdev.png'
